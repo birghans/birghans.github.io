@@ -555,7 +555,7 @@ section {
   padding: 0rem 1rem;
   border-style: solid;
   color: #000000;
-  border-color: #FFFFFF;
+  border-color: rgba(255, 255, 255, .5);
 }
 
 .centered > h1 {
@@ -607,7 +607,7 @@ section {
   width: 100%;
   height: 0;
   padding-top: 29.417%;
-  background: url("../img/header_bewerbungstraining.jpg") no-repeat center center;
+  background: url("../img/Bewerbung.jpg") no-repeat center center;
   background-size: contain;
 }
 
@@ -616,7 +616,7 @@ section {
   width: 100%;
   height: 0;
   padding-top: 29.417%;
-  background: url("../img/header_gruendercoaching.jpg") no-repeat center center;
+  background: url("../img/Gruender.jpg") no-repeat center center;
   background-size: contain;
 }
 
@@ -625,7 +625,7 @@ section {
   width: 100%;
   height: 0;
   padding-top: 29.417%;
-  background: url("../img/header_gesundheitscoaching.jpg") no-repeat center center;
+  background: url("../img/Gesundheit.jpg") no-repeat center center;
   background-size: contain;
 }
 
@@ -634,7 +634,7 @@ section {
   width: 100%;
   height: 0;
   padding-top: 29.417%;
-  background: url("../img/header_verkaufstraining.jpg") no-repeat center center;
+  background: url("../img/Verkaufstraining.jpg") no-repeat center center;
   background-size: contain;
 }
 
@@ -643,7 +643,7 @@ section {
   width: 100%;
   height: 0;
   padding-top: 29.417%;
-  background: url("../img/header_ueber_uns.jpg") no-repeat center center;
+  background: url("../img/Ueber-mich.jpg") no-repeat center center;
   background-size: contain;
 }
 
@@ -652,7 +652,7 @@ section {
   width: 100%;
   height: 0;
   padding-top: 29.417%;
-  background: url("../img/header_kontakt.jpg") no-repeat center center;
+  background: url("../img/Kontakt.jpg") no-repeat center center;
   background-size: contain;
 }
 
@@ -788,6 +788,91 @@ section {
     margin-left: auto;
   }
 
+}
+
+/* === UEBER-MICH === */
+
+.head-ueber-mich {
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+.flex-item1 {
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+  float: left;
+}
+
+.flex-item2 {
+  width: 75%;
+  margin: 10px;
+  text-align: left;
+}
+
+.flex-item2 h1 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.flex-item2 h2 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.flex-item2 p {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+}
+
+.flex-item3 {
+  width: 75%;
+  margin: 10px;
+  text-align: left;
+
+}
+
+.flex-item3 h1 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.flex-item3 h2 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.flex-item3 p {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+}
+
+.flex-item3 ul {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.flex-item3 li {
+  padding: 8px;
+  margin-bottom: 8px;
+  /*background-color: #3D3F45;*/
+  color: black;
+  font-size: 1.1rem;
+}
+
+.flex-item4 {
+  width: 25%;
+  margin: 10px;
+  justify-content: center;
+  float: right;
 }
 
 /* === FOOTER === */
