@@ -110,7 +110,7 @@ section {
 
   .intro-container > p {
     margin-bottom: 0;
-    font-size: .9rem;
+    font-size: 1rem;
   }
 
 }
@@ -118,12 +118,12 @@ section {
 @media (max-width: 565px) {
 
   .intro-container > h1 {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   .intro-container > p {
     margin-bottom: 0;
-    font-size: .8rem;
+    font-size: 1rem;
   }
 
 }
@@ -574,7 +574,7 @@ section {
   }
 
   .centered > p {
-    font-size: .9rem;
+    font-size: 1rem;
   }
 
 }
@@ -586,7 +586,7 @@ section {
   }
 
   .centered > p {
-    font-size: .7rem;
+    font-size: .8rem;
   }
 
 }
@@ -880,7 +880,7 @@ section {
   }
 
   #footer a {
-    font-size: .6rem;
+    font-size: .7rem;
   }
 
 }
