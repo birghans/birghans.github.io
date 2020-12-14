@@ -49,7 +49,6 @@ section {
 
   section {
     padding-top: .5rem;
-    padding-bottom: .5rem;
   }
 
 }
@@ -73,7 +72,6 @@ section {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2.5rem;
 }
 
 .intro-container > h1 {
@@ -87,18 +85,19 @@ section {
 }
 
 .intro-container > p {
+  margin-bottom: 1.5rem;
   font-size: 1.1rem;
   line-height: 1.7rem;
 }
 
 @media (max-width: 1024px) {
 
-  .intro-container {
-    width: 100%;
+  .intro-container > p {
+    margin-bottom: 0;
   }
 
-  .intro-container > p {
-    margin-bottom: .5rem;
+  .intro-container {
+    width: 100%;
   }
 
 }
@@ -744,9 +743,10 @@ section {
 
   .leistungs-box {
     width: 80%;
-    margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
+    padding: 0.5rem;
+    margin-bottom: 0;
   }
 
 }
@@ -755,6 +755,8 @@ section {
 
   .leistungs-box {
     width: 70%;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
   }
 
   #mobile-leistungen-bereich .row > .col-3:nth-of-type(even) > .leistungs-box {
@@ -773,6 +775,7 @@ section {
 
   .leistungs-box {
     width: 90%;
+    padding: 0rem 0.5rem 0rem 0.5rem;
   }
 
   #leistungen-bereich .row > .col-3:nth-of-type(even) > .leistungs-box {
