@@ -795,21 +795,22 @@ section {
 }
 
 .flex-item1 {
-  width: 25%;
+  width: 400px;
   margin-right: 2rem;
   text-align: center;
   float: left;
 }
 
 .flex-item1 img{
-  width: 250px;
+  width: 400px;
+  /*width: 23vw;*/
 }
 
 .flex-item2 {
   width: 75%;
   margin: 10px;
   text-align: left;
-}
+  }
 
 .flex-item2 h1 {
   font-size: 1.6rem;
@@ -863,9 +864,10 @@ section {
 }
 
 .flex-item4 {
+  flex-direction: row-reverse;
   width: 25%;
-  margin-left: 2rem;
-  justify-content: center;
+  margin-right: 1rem;
+  text-align: right;
   float: right;
 }
 
@@ -937,16 +939,40 @@ section {
     display: none;
   }
 
+  .flex-item1 {
+    width: 350px;
+    margin-top: 0;
+    margin-left: .7rem;
+    margin-right: .5rem;
+  }
+
   .flex-item1 img{
-    width: 180px;
+    width: 100%;
+  }
+
+  .flex-item2 {
+    width: 80%;
   }
 
   .flex-item2 p{
     margin-bottom: 0;
-  }
+    margin-top: 0;
+    }
 
-  .flex-item4 img{
-    width: 180px;
+    .flex-item3 {
+      width: 80%;
+    }
+
+    .flex-item4 {
+      display: none;
+    }
+
+    .flex-item4 img{
+      width: 185px;
+    }
+
+  .flex-item5 h1{
+    margin-bottom: 0;
   }
 
 }
@@ -973,6 +999,14 @@ section {
     display: none;
   }
 
+  .flex-item1 {
+    width: 50%;
+  }
+
+  .flex-item1 img{
+    width: 100%;
+  }
+
   .flex-container {
     width: 100%;
   }
@@ -991,6 +1025,10 @@ section {
     font-size: 1rem;
     line-height: 1.7rem;
     margin: 0;
+  }
+
+  .flex-item3 {
+    width: 80%;
   }
 
   .flex-item3 h1 {
@@ -1022,6 +1060,10 @@ section {
     font-size: 1rem;
   }
 
+  .flex-item4 {
+    display: none;
+  }
+
   .flex-item5 h1 {
     font-size: 1.4rem;
     text-transform: uppercase;
@@ -1046,9 +1088,7 @@ section {
     margin-left: .5rem;
   }
 
-  .flex-item1 img{
-    width: 120px;
-  }
+
 
   .flex-item4 img{
     width: 120px;
