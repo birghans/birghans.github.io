@@ -171,21 +171,10 @@ section {
 
     .impressum-container > p {
       margin-bottom: 0;
-      font-size: .9rem;
-    }
-
-}
-
-@media (max-width: 565px) {
-
-    .impressum-container > h1 {
       font-size: 1rem;
     }
 
-    .impressum-container > p {
-      margin-bottom: 0;
-      font-size: .8rem;
-    }
+}
 
 }
 
