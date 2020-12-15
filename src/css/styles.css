@@ -176,6 +176,7 @@ section {
 
 }
 
+
 }
 
 /* Clear floats after the columns */
@@ -895,6 +896,13 @@ section {
   margin: 0;
 }
 
+.flex-item6 {
+  flex-direction: column;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+}
+
 #mobile-ueber-mich-bereich {
   display: none;
 }
@@ -906,15 +914,13 @@ section {
 #myBtn {
   margin-top: .5rem;
   text-align: center;
-  margin-left: 23%;
-  width: 50%;
+  width: 60%;
 }
 
 #myBtn2 {
   margin-top: .5rem;
   text-align: center;
-  margin-left: 30%;
-  width: 70%;
+  width: 60%;
 }
 
 @media (max-width: 1024px) {
@@ -965,6 +971,10 @@ section {
 
   #more2 {
     display: none;
+  }
+
+  .flex-container {
+    width: 100%;
   }
 
   .flex-item2 h1 {
@@ -1050,6 +1060,13 @@ section {
 
   .flex-container {
     flex-direction: column;
+    width: 100%;
+  }
+
+  .flex-item1 {
+    margin: 0;
+    width: 100%;
+    text-align: center;
   }
 
   .flex-item2 {
@@ -1068,11 +1085,6 @@ section {
 
   .flex-item5 {
     text-align: center;
-  }
-
-  #myBtn2 {
-    margin-left: -20px;
-    width: 50%;
   }
 
 }
