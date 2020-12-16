@@ -1331,7 +1331,7 @@ section {
   top: -4px;
 }
 .ps-timeline-sec .container ol.ps-timeline {
-  margin: 140px 0;
+  margin: 170px 0;
   padding: 0;
   border-top: 2px solid #C794E9;
   list-style: none;
@@ -1413,7 +1413,7 @@ section {
   width: 100%;
 }
 
-@media screen and (max-width: 1099px) {
+@media (max-width: 768px) {
   .ps-timeline-sec .container ol:before {
     background-color: #C794E9;
     content: "";
@@ -1422,7 +1422,7 @@ section {
     border-radius: 100%;
     position: absolute;
     top: 395px !important;
-    left: 49.6% !important;
+    left: 49.4% !important;
   }
   .ps-timeline-sec .container ol:after {
     background-color: #C794E9;
@@ -1432,7 +1432,7 @@ section {
     border-radius: 100%;
     position: absolute;
     top: 0 !important;
-    left: 49.6% !important;
+    left: 49.4% !important;
   }
   .ps-timeline-sec .container ol.ps-timeline {
     margin: 0;
@@ -1457,8 +1457,8 @@ section {
 
   .ps-timeline-sec .container ol.ps-timeline li:last-child .ps-top {
     margin-bottom: 0 !important;
-    top: -20px;
-    width: 50% !important;
+    top: -22px;
+    width: 110% !important;
   }
   .ps-timeline-sec .container ol.ps-timeline li span {
     left: -5px !important;
@@ -1477,28 +1477,97 @@ section {
     content: none !important;
   }
 
-  /*.ps-timeline-sec .container ol.ps-timeline li p {
+  .ps-timeline-sec .container ol.ps-timeline li p {
     text-align: left !important;
     width: 100% !important;
     margin: 0 auto !important;
     margin-top: 0px !important;
-  }*/
+  }
+
   .ps-timeline-sec .container ol.ps-timeline li .ps-top {
     width: 100% !important;
     float: right !important;
     left: 30px;
-    top: -25px;
+    top: -35px;
     margin-top: 0;
     text-align: left;
   }
   .ps-timeline-sec .container ol.ps-timeline li .ps-bot {
     width: 100% !important;
     float: right !important;
-    left: -425px;
-    top: -25px;
+    left: -115%;
+    top: -35px;
     margin-top: 0;
     text-align: right;
   }
+}
+
+@media (max-width: 625px) {
+
+  .ps-timeline-sec .container ol:before {
+    left: 49.3% !important;
+  }
+  .ps-timeline-sec .container ol:after {
+    left: 49.3% !important;
+  }
+
+}
+
+@media (max-width: 565px) {
+
+  .ps-timeline-sec .container ol:before {
+    left: 0.75rem !important;
+  }
+  .ps-timeline-sec .container ol:after {
+    left: 0.75rem !important;
+  }
+  .ps-timeline-sec .container ol.ps-timeline {
+    margin-left: 1rem;
+    border-top: 0 !important;
+    width: 100%;
+    float: left;
+  }
+  .ps-timeline-sec .container ol.ps-timeline li .ps-top {
+    width: 100% !important;
+    float: right !important;
+    left: 30px;
+    top: -30px;
+    margin-top: 0;
+    text-align: left;
+  }
+  .ps-timeline-sec .container ol.ps-timeline li .ps-bot {
+    top: -30px;
+    left: 30px;
+    text-align: left;
+  }
+
+  @media (max-width: 370px) {
+
+    .ps-timeline-sec .container ol.ps-timeline li .ps-top {
+      font-size: .9rem !important;
+    }
+
+    .ps-timeline-sec .container ol.ps-timeline li .ps-bot {
+      font-size: .9rem !important;
+    }
+  }
+
+  /*.ps-timeline-sec .container ol:before {
+    left: 49.2% !important;
+  }
+
+  .ps-timeline-sec .container ol:after {
+    left: 49.2% !important;
+  }
+
+  .ps-timeline-sec .container ol.ps-timeline li .ps-top {
+    top: -45px;
+  }
+
+  .ps-timeline-sec .container ol.ps-timeline li .ps-bot {
+    top: -45px;
+  }*/
+
 }
 
 /* === FOOTER === */
