@@ -1000,14 +1000,13 @@ section {
   }
 
   .flex-item1 {
-    width: 50%;
-  }
-
-  .flex-item1 img{
-    width: 100%;
+    margin: 0;
+    width: 80%;
+    text-align: center;
   }
 
   .flex-container {
+    flex-direction: column;
     width: 100%;
   }
 
@@ -1088,10 +1087,12 @@ section {
     margin-left: .5rem;
   }
 
-
-
   .flex-item4 img{
     width: 120px;
+  }
+
+  .flex-item5 {
+    text-align: center;
   }
 
 }
