@@ -388,8 +388,8 @@ section {
 #mobile-nav-button {
   color: #000000;
   float: right;
-  font-size: 2rem;
-  border: 2px solid #000000;
+  font-size: 2.2rem;
+  /*border: 2px solid #000000;*/
   width: 37px;
   height: 37px;
   position: relative;
