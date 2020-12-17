@@ -1264,17 +1264,17 @@ width:60%;
 
 #myBtn {
   margin-top: 0;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 }
 
 #myBtn2 {
   margin-top: 0;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 }
 
 #myBtn3 {
   margin-top: 0;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 768px) {
@@ -1426,7 +1426,7 @@ width:60%;
   top: -4px;
 }
 .ps-timeline-sec .container ol.ps-timeline {
-  margin: 170px 0;
+  margin: 140px 0;
   padding: 0;
   border-top: 2px solid #C794E9;
   list-style: none;
@@ -1508,7 +1508,7 @@ width:60%;
   width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 780px) {
   .ps-timeline-sec .container ol:before {
     background-color: #C794E9;
     content: "";
