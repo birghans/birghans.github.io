@@ -61,6 +61,9 @@ section {
   clear: both;
 }
 
+.margin1x {margin-left: 4rem;}
+.margin2x {margin-left: 8rem;}
+
 #myBtn {
   margin-top: .5rem;
   text-align: center;
@@ -1316,6 +1319,13 @@ width:60%;
     padding: 0;
     line-height: 1.7rem;
   }
+
+}
+
+@media (max-width: 565px) {
+
+  .margin1x {margin-left: 0;}
+  .margin2x {margin-left: 0;}
 
 }
 
