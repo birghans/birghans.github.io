@@ -140,7 +140,7 @@
           <div class="col-6">
 
       <div class="container-contact">
-        <form action="mail_me.php" method="post">
+        <form action="action_page.php">
 
           <label for="fname">Vorname</label>
           <input type="text" id="fname" name="firstname" placeholder="Vorname..">
@@ -148,16 +148,10 @@
           <label for="lname">Nachname</label>
           <input type="text" id="lname" name="lastname" placeholder="Nachname..">
 
-          <label for="email">E-Mail Adresse</label>
-          <input type="text" id="email" name="email" placeholder="E-Mail Adresse..">
+          <label for="subject">Thema</label>
+          <textarea id="subject" name="subject" placeholder="Schreiben Sie mir Ihr Anliegen.." style="height:200px"></textarea>
 
-          <label for="phone">Telefonnummer</label>
-          <input type="text" id="phone" name="phone" placeholder="Telefonnummer..">
-
-          <label for="msg">Nachricht</label>
-          <textarea id="msg" name="msg" placeholder="Schreiben Sie mir Ihr Anliegen.." style="height:200px"></textarea>
-
-          <input type="submit" name="submit" value="Absenden">
+          <input type="submit" value="Absenden">
 
         </form>
       </div>
